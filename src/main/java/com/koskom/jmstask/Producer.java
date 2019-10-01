@@ -1,5 +1,5 @@
-import org.apache.activemq.ActiveMQConnection;
-import org.apache.activemq.ActiveMQConnectionFactory;
+package com.koskom.jmstask;
+
 import org.apache.activemq.command.ActiveMQQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -7,19 +7,25 @@ import org.slf4j.LoggerFactory;
 import javax.jms.*;
 
 class Producer {
-
-    private static final Logger LOGGER =
-            LoggerFactory.getLogger(Producer.class);
-
+    private String queues;
+    private Connection connection;
     private MessageProducer messageProducer;
+    private static final Logger LOGGER = LoggerFactory.getLogger(Producer.class);
 
-    public void create(Connection connection) throws JMSException {
+    Producer(String queues, Connection connection){
+        this.queues = queues;
+        this.connection = connection;
+    }
+
+
+
+    public void create() throws JMSException {
         Session session = connection.createSession (false, Session.AUTO_ACKNOWLEDGE);
-        Queue queue = new ActiveMQQueue ("testQueue2,testQueue3");
+        Queue queue = new ActiveMQQueue (queues);
         messageProducer = session.createProducer(queue);
     }
 
-    public void close(Connection connection) throws JMSException {
+    public void close() throws JMSException {
         connection.close();
     }
 

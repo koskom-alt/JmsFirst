@@ -11,4 +11,5 @@ class InitConnection {
         final javax.jms.Connection connection = connectionFactory.createConnection ( );
         return connection;
     }
+
 }

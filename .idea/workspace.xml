@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92d7a216-e7d1-4a74-be2e-7740b805560d" name="Default Changelist" comment="Add UnitTest">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/koskom/jmstask/MessageDuplicatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="92d7a216-e7d1-4a74-be2e-7740b805560d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Init.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/InitConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/MessageDuplicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Init.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/InitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/InitConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/InitConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/MessageDuplicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/MessageDuplicator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/GitHub/JmsTests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -158,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1569770367278</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add UnitTest">
+      <created>1569938892756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569938892756</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +159,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

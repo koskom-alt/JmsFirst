@@ -17,24 +17,15 @@ class Producer {
         this.connection = connection;
     }
 
-
-
     public void create() throws JMSException {
         Session session = connection.createSession (false, Session.AUTO_ACKNOWLEDGE);
-        Queue queue = new ActiveMQQueue (queues);
-        messageProducer = session.createProducer(queue);
+        messageProducer = session.createProducer(new ActiveMQQueue (queues));
     }
-
-    public void close() throws JMSException {
-        connection.close();
-    }
-
 
     public void sendMessage (Message message) throws JMSException{
         if (message instanceof TextMessage){
             TextMessage textMessage = (TextMessage) message;
             if (!textMessage.getText ().isEmpty ()){
-                LOGGER.debug("producer sent message with text='{}'", textMessage.getText ());
                 messageProducer.send (message);
             }else{
                 LOGGER.debug ("message is Empty");

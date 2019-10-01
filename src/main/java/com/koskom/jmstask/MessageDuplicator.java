@@ -6,7 +6,6 @@ import org.apache.activemq.ActiveMQConnection;
 import javax.jms.*;
 import java.util.HashSet;
 import java.util.Set;
-import java.util.logging.Logger;
 
 class MessageDuplicator {
 
@@ -22,6 +21,7 @@ class MessageDuplicator {
         this.url = url;
         this.consumerQueue = inQueue;
         this.producerQueues = String.join(",", outQueues);
+
     }
     public void stop(){
         if (connection != null) {

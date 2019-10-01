@@ -8,7 +8,7 @@ class Consumer {
     private Connection connection;
     private MessageConsumer messageConsumer;
 
-    Consumer(String queue, Connection connection){
+    Consumer(String queue, Connection connection) {
         this.queue = queue;
         this.connection = connection;
     }

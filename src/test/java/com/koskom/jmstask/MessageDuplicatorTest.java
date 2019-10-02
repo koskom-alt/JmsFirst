@@ -67,7 +67,7 @@ class MessageDuplicatorTest {
             TextMessage message = (TextMessage) consumer.receive();
 
             Assertions.assertNotNull(message);
-            Assertions.assertSame("testMessage", message.getText());
+            Assertions.assertEquals("testMessage", message.getText());
         }
     }
 

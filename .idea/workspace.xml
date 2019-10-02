@@ -4,6 +4,8 @@
     <list default="true" id="92d7a216-e7d1-4a74-be2e-7740b805560d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/MessageDuplicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/koskom/jmstask/MessageDuplicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/koskom/jmstask/MessageDuplicatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/koskom/jmstask/MessageDuplicatorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MessageDuplicatorTest (1)">
+  <component name="RunManager" selected="JUnit.MessageDuplicatorTest">
     <configuration name="MessageDuplicator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.koskom.jmstask.MessageDuplicator" />
       <module name="JmsFirst" />
@@ -132,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MessageDuplicatorTest (1)" />
         <item itemvalue="JUnit.MessageDuplicatorTest" />
+        <item itemvalue="JUnit.MessageDuplicatorTest (1)" />
         <item itemvalue="Application.MessageDuplicator" />
         <item itemvalue="JUnit.MessageDuplicatorTest.simple" />
         <item itemvalue="JUnit.All in JmsFirst" />

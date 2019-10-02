@@ -34,6 +34,7 @@ class MessageDuplicator {
     }
     public void run() throws JMSException {
 
+
         connection = InitConnection.getConnection(url);
 
         producer = new Producer(producerQueues, connection);
@@ -42,14 +43,12 @@ class MessageDuplicator {
         consumer.create();
         producer.create();
 
-        MessageListener lister = new MessageListener() {
-            public void onMessage(Message message) {
-                try {
-                    producer.sendMessage(message);
-                } catch (JMSException e) {
-                    System.out.println("Caught:" + e);
-                    e.printStackTrace();
-                }
+        MessageListener lister = message -> {
+            try {
+                producer.sendMessage(message);
+            } catch (JMSException e) {
+                System.out.println("Caught:" + e);
+                e.printStackTrace();
             }
         };
         consumer.setMessageListener(lister);
